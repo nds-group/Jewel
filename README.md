@@ -28,10 +28,10 @@ The use cases considered in the paper are:
 ## Citation
 If you make use of this code, kindly cite our paper:  
 ```
-@inproceedings{flowrest-2023,
+@inproceedings{jewel-2024,
 author = {Akem, Aristide Tanyi-Jong and Bütün, Beyza and Gucciardo, Michele and Fiore, Marco},
 title = {Jewel: Resource-Efficient Joint Packet and Flow Level Inference in Programmable Switches},
-year = {2023},
+year = {2024},
 publisher = {},
 address = {},
 url = {},
