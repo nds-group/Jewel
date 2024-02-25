@@ -25,7 +25,7 @@ The use cases considered in the paper are:
 - Malicious traffic detection task with 10 malware and 4 benign traffic classes generated from Internet of Things (IoT) devices, based on the puclicly available <a href="https://www.stratosphereips.org/datasets-iot23">Aposemat IoT-23</a>.
 - Cyberattack identification task with benign traffic and 9 types of cyberattacks. It is based on the <a href="https://research.unsw.edu.au/projects/toniot-datasets">ToN_IoT</a> dataset.
 
-We provide the python, P4, and the controller code for the UNSW-IoT device identification use case with 26 classes. <br> The same approach for generating the train/test data for the joint solution, feature/model selection, encoding to P4, and getting digests from the data plane applies to all the use cases. 
+We provide the python, P4, and the controller code for the UNSW-IoT device identification use case with 26 classes. <br> The same approach for generating the train/test data for the joint solution, feature/model selection, encoding to P4, and getting digest from the data plane applies to all the use cases. 
 
 You can access the train/test files and packet count file for the test data for this use case from this<a href="https://box.networks.imdea.org/s/4QWdzOoxG8BWlkF"> Box folder</a>.
 
