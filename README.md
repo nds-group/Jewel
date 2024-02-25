@@ -14,7 +14,7 @@ For full details, please consult <a href="https://dspace.networks.imdea.org/hand
 There are three folders:  
 <!-- - _Data_ : information on how to access the data  -->
 - _P4_ : The P4 code for Tofino and the M/A table entries
-- _Python_ : The jupyter notebook for training the machine learning models (_unsw_model_analysis_26_classes.ipynb_), and the python scripts for generating the M/A table entries from the saved trained models (_convert_RF_to_table_entries.py_) and for generating the train/test set of the joint solution with the generated features for the first N packet (_clean_and_label_n_pkts_hybrid.py_). Also, a bash script to extract pcap capture and call  _clean_and_label_n_pkts_hybrid.py_.
+- _Python_ : The jupyter notebook for training the machine learning models (_unsw_model_analysis_26_classes.ipynb_), and the python scripts for generating the M/A table entries from the saved trained models (_convert_RF_to_table_entries.py_) and for generating the train/test data of the joint solution with the generated features for the first N packet (_clean_and_label_n_pkts_hybrid.py_). Also, a bash script to extract pcap capture and call  _clean_and_label_n_pkts_hybrid.py_ to generate the train/test data for the specific N value. (N=the rank of the packet for which the Flow-Level inference is triggered.)
 - _Controller_: The python script that realizes control plane functionality to store statistics, release of the flow tracking registers occupied by the flow and update target traffic table upon receiving a digest from the switch.
 
 
