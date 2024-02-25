@@ -57,7 +57,6 @@ packet_data["srcport"] = packet_data["srcport"].astype('Int64')
 packet_data["dstport"] = packet_data["dstport"].astype('Int64')
 
 #===============================CREATE THE FLOW IDs AND DROP UNWANTED COLUMNS =============================================#
-# packet_data["ID"] = packet_data["ip.src"].astype(str) + " " + packet_data["ip.dst"].astype(str) + " " + packet_data["srcport"].astype(str) + " " + packet_data["dstport"].astype(str) + " " + packet_data["ip.proto"].astype(str)
 packet_data = packet_data.drop(["tcp.srcport","tcp.dstport","udp.srcport","udp.dstport"],axis=1)
 packet_data = packet_data.reset_index(drop=True)
 
