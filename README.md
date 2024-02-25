@@ -20,7 +20,7 @@ There are three folders:
 
 ## Use cases
 The use cases considered in the paper are: 
-- IoT device identification task based on the publicly available <a href="https://iotanalytics.unsw.edu.au/iottraces.html">UNSW-IOT Traces</a>. <br>The challenge is to classify traffic into one of 16 or 26 classes. 
+- IoT device identification task based on the publicly available <a href="https://iotanalytics.unsw.edu.au/iottraces.html">UNSW-IOT Traces</a>. <br>The challenge is to classify traffic into 26 classes. 
 - Protocol classification with 8 protocol classes, based on the <a href="http://netweb.ing.unibs.it/~ntw/tools/traces/">UNIBS 2009 Internet Traces</a>.
 - Malicious traffic detection task with 10 malware and 4 benign traffic classes generated from Internet of Things (IoT) devices, based on the puclicly available <a href="https://www.stratosphereips.org/datasets-iot23">Aposemat IoT-23</a>.
 - Cyberattack identification task with benign traffic and 9 types of cyberattacks. It is based on the <a href="https://research.unsw.edu.au/projects/toniot-datasets">ToN_IoT</a> dataset.
