@@ -331,7 +331,7 @@ for qsfp_cage in [1, 5]:
     # Get 'INFERENCE FORWARDING BLOCK' table entries
     # Read csv file to get flow 5 tuple ids (src_addr, hdr.ipv4.dst_addr, meta.hdr_srcport, meta.hdr_dstport, hdr.ipv4.protocol, action)
     # ACTION: Forwarding: 0 Inference: 1
-    flow_id_info = pd.read_csv("/home/nds-admin/UNSW_PCAPS/hyb_code/16-10-05-flow-counts.csv")
+    flow_id_info = pd.read_csv("test_data_flow_packet_counts.csv")
     flow_id_info = flow_id_info.dropna()
     flow_id_info = flow_id_info.drop_duplicates(subset=['flow.id'])
     for index, flow in flow_id_info.iterrows():
